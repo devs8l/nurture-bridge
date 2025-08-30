@@ -58,7 +58,7 @@ const Hero = () => {
 
                     {/* Partner Logos */}
                     <div className="space-y-4 almarai">
-                        <p className="text-[#1F212599] text-sm mb-10 sm:mb-0">Our Partner Incubators & Incubators</p>
+                        <p className="text-[#1F212599] text-sm mb-10 sm:mb-0">Our Partners & Incubators</p>
                         <div className="flex flex-wrap items-center gap-4 md:gap-8">
                             <div className="w-25 h-9 md:w-30 md:h-12  rounded-full flex items-center justify-center">
                                 <img src="/nsrcel.svg" alt="" />
