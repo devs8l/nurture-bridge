@@ -52,7 +52,7 @@ const Hero = () => {
                     From months-long waitlists to real-time results — <br />empowering families and professionals to act early.
                 </p>
                 <div className='w-full flex flex-col-reverse sm:flex-col gap-10  '>
-                    <button onClick={openContactForm} className="bg-[#1F2125] text-[#FFFFFFCC] w-full sm:w-[30%] px-4 py-3 md:px-8 md:py-3 text-sm rounded-md  font-medium hover:bg-gray-800 transition-colors mb-8 lg:mb-16">
+                    <button onClick={openContactForm} className="bg-[#1F2125] cursor-pointer text-[#FFFFFFCC] w-full sm:w-[30%] px-4 py-3 md:px-8 md:py-3 text-sm rounded-md  font-medium hover:bg-gray-800 transition-colors mb-8 lg:mb-16">
                         Book a Demo
                     </button>
 
