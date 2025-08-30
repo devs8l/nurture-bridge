@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+.almarai {
+    font-family: "Almarai";
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helius";
+    src: url("/fonts/variable/Helius-Regular.otf") format("truetype");
+}
+
+.helius {
+    font-family: "Helius";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading-helius {
+    color: #1F2125;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Helius;
+    font-size: 72px;
+    font-style: "Helius";
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -1.44px;
+}
+
+/* iPad (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .heading-helius {
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1.12px;
+    }
+}
+
+/* Mobile (320px - 767px) */
+@media screen and (max-width: 767px) {
+    .heading-helius {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.8px;
+    }
+}
