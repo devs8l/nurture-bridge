@@ -22,10 +22,10 @@
     leading-trim: both;
     text-edge: cap;
     font-family: Helius;
-    font-size: 72px;
+    font-size: 55px;
     font-style: "Helius";
     font-weight: 400;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: -1.44px;
 }
 
@@ -41,8 +41,15 @@
 /* Mobile (320px - 767px) */
 @media screen and (max-width: 767px) {
     .heading-helius {
-        font-size: 40px;
-        line-height: 48px;
-        letter-spacing: -0.8px;
+        color: #FFF;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Helius;
+        font-size: 32.961px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32.179px;
+        /* 111.111% */
+        letter-spacing: -0.579px;
     }
 }
