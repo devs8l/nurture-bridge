@@ -40,9 +40,18 @@ const Hero = () => {
 
 
             {/* Left Content */}
-            <div className="flex-1 hidden sm:flex  flex-col justify-center  items-start w-full min-h-[90vh]  h-full lg:max-w-[60%] p-6 lg:px-28">
-                <div className='w-33 h-33 mb-6 hidden sm:flex'>
-                    <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
+            <div className="flex-1 hidden sm:flex  flex-col justify-center  items-start w-full min-h-[90vh]  h-full lg:max-w-[60%] p-6 lg:px-17">
+                <div className='flex items-center justify-center gap-8'>
+                    <div className='w-37 h-42 mb-6 hidden sm:flex'>
+                        <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
+                    </div>
+                    <div className='flex items-center justify-center gap-6'>
+                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Product</a>
+                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Solutions</a>
+                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">About</a>
+                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Resources</a>
+                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Contact</a>
+                    </div>
                 </div>
                 <h1 className="text-3xl  heading-helius md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight mb-6 relative">
                     Transforming Autism <br className='hidden lg:block' /> Assessment with AI- <br className='hidden lg:block' />
