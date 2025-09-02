@@ -45,12 +45,12 @@ const Hero = () => {
                     <div className='w-37 h-42 mb-6 hidden sm:flex'>
                         <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
                     </div>
-                    <div className='flex items-center justify-center gap-6'>
-                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Product</a>
-                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Solutions</a>
-                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">About</a>
-                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Resources</a>
-                        <a href="#" class="text-gray-700 text-sm hover:text-gray-500 font-medium transition-colors">Contact</a>
+                    <div className='flex items-center justify-center almarai gap-6'>
+                        <a href="#" class="text-gray-600 text-md  hover:text-gray-500 font-medium transition-colors">Product</a>
+                        <a href="#" class="text-gray-600 text-md  hover:text-gray-500 font-medium transition-colors">Solutions</a>
+                        <a href="#" class="text-gray-600 text-md  hover:text-gray-500 font-medium transition-colors">About</a>
+                        <a href="#" class="text-gray-600 text-md  hover:text-gray-500 font-medium transition-colors">Resources</a>
+                        <a href="#" class="text-gray-600 text-md  hover:text-gray-500 font-medium transition-colors">Contact</a>
                     </div>
                 </div>
                 <h1 className="text-3xl  heading-helius md:text-4xl lg:text-5xl font-light text-gray-900 leading-tight mb-6 relative">
