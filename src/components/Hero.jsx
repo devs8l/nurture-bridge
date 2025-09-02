@@ -36,12 +36,12 @@ const Hero = () => {
 
 
     return (
-        <div className="bg-white min-h-[90vh] rounded-lg sm:w-[90%] flex flex-col-reverse lg:flex-row justify-end gap-8 sm:border border-[#524e4946]">
+        <div className="bg-white min-h-[90vh] rounded-xl sm:w-[85%] flex flex-col-reverse lg:flex-row justify-end gap-8 sm:border border-[#524e4946]">
 
 
             {/* Left Content */}
-            <div className="flex-1 hidden sm:flex  flex-col justify-center  items-start w-full min-h-[90vh]  h-full lg:max-w-[60%] p-6 lg:px-17">
-                <div className='flex items-center justify-center gap-8'>
+            <div className="flex-1 hidden sm:flex  flex-col justify-center  items-start w-full   h-full lg:max-w-[60%] p-6 lg:px-17">
+                <div className='flex items-center justify-center gap-8 mt-[-30px]'>
                     <div className='w-37 h-42 mb-6 hidden sm:flex'>
                         <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
                     </div>
