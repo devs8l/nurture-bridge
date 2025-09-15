@@ -1,71 +1,108 @@
-import React from 'react';
+import React from "react";
+
+const useCases = [
+  {
+    title: "Parents",
+    description: "Detect concerns early, get clear next steps",
+    illustration: "/Parents.png",
+  },
+  {
+    title: "Hospitals",
+    description: "Reduce patient backlog, streamline assessments",
+    illustration: "/Hospitals.png",
+  },
+  {
+    title: "Therapy Centers",
+    description: "Speed up intake, personalize care",
+    illustration: "/therapy-centers.png",
+  },
+  {
+    title: "Psychologists",
+    description: "Access structured AI-powered reports",
+    illustration: "/Psychologist.png",
+  },
+];
 
 const UseCases = () => {
-    const useCases = [
-        {
-            image: "/parents.jpg", // Replace with your actual image
-            title: "Parents",
-            description: "Detect concerns early, get clear next steps"
-        },
-        {
-            image: "/hospital.jpg", // Replace with your actual image
-            title: "Hospitals",
-            description: "Reduce patient backlog, streamline assessments"
-        },
-        {
-            image: "/therapy.jpg", // Replace with your actual image
-            title: "Therapy Centers",
-            description: "Speed up intake, personalize care"
-        },
-        {
-            image: "/psychology.jpg", // Replace with your actual image
-            title: "Psychologists",
-            description: "Access structured AI-powered reports"
-        }
-    ];
+  return (
+    <div className="w-full sm:w-[85%] py-12 mt-10 mx-auto sm:px-0">
+      {/* Section Heading */}
+      <div className="text-center mb-12 md:mb-16">
+        <h2 className="heading-helius mb-4">
+          Use Cases / Solution
+        </h2>
+      </div>
 
-    return (
-        <div className="w-full sm:w-[85%] py-10 mt-10">
-            {/* Section Header */}
-            <div className="text-center mb-12 md:mb-16">
-                <h2 className="heading-helius mb-4">
-                    Use Cases/ Solution
-                </h2>
+      {/* Main 2-Column Layout */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+        {/* Left Column */}
+        <div className="grid grid-cols-1 gap-6">
+          {/* Row 1: Parents + Hospitals */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Parents */}
+            <div className="relative rounded-2xl p-6 h-100 overflow-hidden">
+              <h3 className="content-head mb-3 relative z-10">
+                {useCases[0].title}
+              </h3>
+              <p className="content relative z-10">
+                {useCases[0].description}
+              </p>
+              <img
+                src={useCases[0].illustration}
+                alt={useCases[0].title}
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-100 h-full pointer-events-none"
+              />
             </div>
 
-            {/* Use Cases Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-                {useCases.map((useCase, index) => (
-                    <div 
-                        key={index}
-                        className="relative  rounded-xl  overflow-hidden group transition-all duration-300 "
-                    >
-                        {/* Image Container */}
-                        <div className="mb-6 md:mb-8">
-                            <div className="w-full h-48 md:h-90 border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
-                                <img 
-                                    src={useCase.image} 
-                                    alt={useCase.title}
-                                    className="w-full h-full object-cover  transition-transform duration-300"
-                                />
-                            </div>
-                        </div>
-
-                        {/* Content */}
-                        <div className="relative z-10">
-                            <h3 className="content-head mb-3 md:mb-4">
-                                {useCase.title}
-                            </h3>
-
-                            <p className="content text-sm md:text-base">
-                                {useCase.description}
-                            </p>
-                        </div>
-                    </div>
-                ))}
+            {/* Hospitals */}
+            <div className="relative rounded-2xl p-6 h-100 overflow-hidden">  
+              <h3 className="content-head mb-3 relative z-10">
+                {useCases[1].title}
+              </h3>
+              <p className="content relative z-10">
+                {useCases[1].description}
+              </p>
+              <img
+                src={useCases[1].illustration}
+                alt={useCases[1].title}
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[100%] pointer-events-none"
+              />
             </div>
+          </div>
+
+          {/* Row 2: Psychologists */}
+          <div className="relative rounded-2xl p-6 h-50 w-full overflow-hidden">
+            <h3 className="content-head mb-3 relative z-10">
+              {useCases[3].title}
+            </h3>
+            <p className="content relative z-10 max-w-[200px]">
+              {useCases[3].description}
+            </p>
+            <img
+              src={useCases[3].illustration}
+              alt={useCases[3].title}
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none"
+            />
+          </div>
         </div>
-    );
+
+        {/* Right Column: Therapy Centers (Full Height) */}
+        <div className="relative rounded-2xl p-6 overflow-hidden h-full flex flex-col">
+          <h3 className="content-head mb-3 relative z-10">
+            {useCases[2].title}
+          </h3>
+          <p className="content relative z-10">
+            {useCases[2].description}
+          </p>
+          <img
+            src={useCases[2].illustration}
+            alt={useCases[2].title}
+            className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none"
+          />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default UseCases;

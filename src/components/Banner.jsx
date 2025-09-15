@@ -3,15 +3,18 @@ import React from 'react';
 export default function Banner() {
   return (
     <div className="relative w-full sm:w-[85%] rounded-xl flex flex-col justify-center h-[500px] overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(/Child.png)`
-        }}
-      >
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/videos/nurture-about.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
 
-      </div>
+
+      
 
       {/* Content Container */}
       <div className="relative z-10  w-[50%] flex items-center h-full px-6 sm:px-8 md:px-12 lg:px-16">
@@ -34,7 +37,7 @@ export default function Banner() {
           
           
           {/* Call to Action Button */}
-          <button className="group border-[0.1px] border-white rounded-lg text-white px-6 sm:px-5 py-3 sm:py-3 text-sm sm:text-base font-medium tracking-wide  transition-all cursor-pointer duration-300 ease-in-out">
+          <button className="group border-[0.1px] border-white rounded-full text-white px-6 sm:px-5 py-3 sm:py-3 text-sm sm:text-base font-medium tracking-wide  transition-all cursor-pointer duration-300 ease-in-out">
             <span className="inline-block  transition-transform duration-300 content !text-white">
               Learn More About Us
             </span>

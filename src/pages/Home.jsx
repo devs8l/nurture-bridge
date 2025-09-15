@@ -9,16 +9,20 @@ import NurtureContent from '../components/NurtureContent'
 import Leaders from '../components/Leaders'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+import BannerSecond from '../components/BannerSecond'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
     <div className="flex flex-col sm:py-10 items-center justify-center min-h-screen bg-[#F9F6F2]">
+      <Navbar />
       <Hero />
       <VisionMission />
       <Banner />
       <HowItWorks />
       <KeyFeatures />
       <UseCases />
+      <BannerSecond />
       <Testimonials />
       <NurtureContent />
       <Leaders />

@@ -5,22 +5,22 @@ const Leaders = () => {
         {
             image: "/gayatri.png", // Replace with your actual image
             title: "Gayathri Ananth",
-            description: "Lorem Ipsum"
+            description: "Founding Member & Chief Executive Officer"
         },
         {
             image: "/harini.png", // Replace with your actual image
             title: "Harini Srinivasan",
-            description: "Lorem Ipsum"
+            description: "Founding Member & Chief of Operations"
         },
         {
             image: "/Gurudutt.png", // Replace with your actual image
             title: "Gurudutt Rao",
-            description: "Lorem Ipsum"
+            description: "Founding Member & Chief of Strategy"
         },
         {
             image: "/devjeet.png", // Replace with your actual image
             title: "Devjeet Choudhury",
-            description: "Lorem Ipsum"
+            description: "Founding Member & Chief of Technology"
         }
     ];
 

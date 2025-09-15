@@ -23,7 +23,7 @@ const Footer = () => {
     return (
         <div className="w-full sm:w-[85%] mt-10 mb-20">
             <div
-                className="relative bg-gradient-to-br from-orange-200 via-yellow-100 to-orange-300 border border-[#524e4946] rounded-xl p-8 md:p-12 lg:p-16 overflow-hidden"
+                className="relative bg-white border border-[#524e4946] rounded-xl p-8 md:p-12 lg:p-16 overflow-hidden"
                 style={{
                     backgroundImage: `url('/gradient.png')`, // Replace with your actual background image
                     backgroundSize: 'cover',
@@ -45,9 +45,12 @@ const Footer = () => {
                         </h2>
 
 
-                        <button className="bg-[#1F2125] text-[#FFFFFFCC] helius px-6 md:px-8 py-3 md:py-4 rounded-md text-sm md:text-base font-medium hover:bg-gray-700 transition-colors duration-300">
+                        <button className="bg-[#F7941D] text-[#FFFFFFCC] helius px-6 md:px-8 py-3 md:py-4 rounded-full text-sm md:text-base font-medium hover:bg-gray-700 transition-colors duration-300">
                             Request a Demo
                         </button>
+                        <div className='w-37 h-42 hidden sm:flex'>
+                            <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
+                        </div>
                     </div>
 
                     {/* Quick Links - shares remaining 55% */}
