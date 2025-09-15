@@ -14,11 +14,11 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div className="flex flex-col sm:py-10 items-center justify-center min-h-screen bg-[#F9F6F2]">
+    <div className="flex flex-col sm:py-10 items-center justify-center min-h-screen bg-[#fff]">
       <Navbar />
       <Hero />
-      <VisionMission />
       <Banner />
+      <VisionMission />
       <HowItWorks />
       <KeyFeatures />
       <UseCases />

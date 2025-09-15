@@ -28,7 +28,7 @@ const KeyFeatures = () => {
         <div className="w-full sm:w-[85%] py-10 mt-10">
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="heading-helius mb-4">
+                <h2 className="scto-head mb-4">
                     Key Features
                 </h2>
             </div>
@@ -53,7 +53,7 @@ const KeyFeatures = () => {
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="content-head mb-4 md:mb-4">
+                            <h3 className="sub-head mb-4 md:mb-4">
                                 {feature.title}
                             </h3>
 

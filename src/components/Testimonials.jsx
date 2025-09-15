@@ -20,7 +20,7 @@ const Testimonials = () => {
         <div className="w-full sm:w-[85%] py-10 mt-10">
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="heading-helius mb-4">
+                <h2 className="scto-head mb-4">
                     Testimonials
                 </h2>
             </div>
@@ -34,9 +34,10 @@ const Testimonials = () => {
                     >
                         {/* Quote */}
                         <div className="mb-8 md:mb-10 ">
-                            <p className=" text-[#1F2125] helius text-[28px] font-normal leading-[36px] tracking-[-0.56px]">
+                            <p className="text-[#222836] text-[32px] font-normal leading-[40px] tracking-[-1.92px] scto">
                                 "{testimonial.quote}"
                             </p>
+
 
                         </div>
 

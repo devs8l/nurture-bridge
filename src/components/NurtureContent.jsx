@@ -4,7 +4,7 @@ const NurtureContent = () => {
     return (
         <div className="w-full sm:w-[85%] py-10 mt-10">
             {/* Main Content Container */}
-            <div className="relative rounded-xl p-8 md:p-25 flex flex-col  border border-[#524e4946] overflow-hidden group transition-all duration-300">
+            <div className="relative rounded-4xl p-8 md:p-25 flex flex-col  border border-[#524e4946] overflow-hidden group transition-all duration-300">
                 <video
                     autoPlay
                     loop
@@ -14,9 +14,13 @@ const NurtureContent = () => {
                 >
                     <source src="/videos/Nurture-content.mp4" type="video/mp4" />
                 </video>
+                <div className='w-full h-full absolute inset-0 bg-[#000000] opacity-50 rounded-xl'>
+
+                    </div>
                 {/* Main Heading */}
                 <div className="text-center mb-8 md:mb-12 relative z-10">
-                    <h2 className="heading-helius mb-6 md:mb-8 leading-tight !text-white">
+                    
+                    <h2 className="scto-head mb-6 w-full md:mb-8 leading-tight !text-white">
                         NurtureBridge Tech is an offshoot of We 
                         <br className="hidden sm:block" />
                         Nurture Foundation, impacting <span className="relative inline-block">
@@ -35,7 +39,7 @@ const NurtureContent = () => {
                     <p className="content text-lg md:text-xl leading-relaxed !text-white">
                         A world where AI-powered early identification and intervention unlock 
                         <br className="hidden md:block" />
-                        new possibilities for every child with developmental challenges.*
+                        new possibilities for every child with developmental challenges.
                     </p>
                 </div>
 

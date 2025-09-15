@@ -36,28 +36,33 @@ const Footer = () => {
 
                     {/* CTA Section - 45% width */}
                     <div className="lg:col-span-5">
-                        <h2 className=" text-[#1F2125] helius text-[48px] font-normal leading-[56px] tracking-[-0.96px] mb-6 md:mb-8">
+                        <h2 className="text-[#222836] scto text-[28px] font-normal leading-[36px] tracking-[-1.68px] mb-6 md:mb-8">
                             Request a demo and
-                            <br className="hidden sm:block" />
-                            see the difference
-                            <br className="hidden sm:block" />
+
+                            see <br className="hidden sm:block" /> the difference
+
                             for yourself.
                         </h2>
 
 
-                        <button className="bg-[#F7941D] text-[#FFFFFFCC] helius px-6 md:px-8 py-3 md:py-4 rounded-full text-sm md:text-base font-medium hover:bg-gray-700 transition-colors duration-300">
+
+                        <button className="bg-[#F7941D] text-white rounded-full shadow-[0_4px_50px_rgba(247,148,29,0.40)] 
+  helius px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-medium 
+  hover:bg-gray-700 transition-colors duration-300">
                             Request a Demo
                         </button>
-                        <div className='w-37 h-42 hidden sm:flex'>
+
+                        <div className='w-47 h-52 hidden sm:flex'>
                             <img src="/nb-logo.png" alt="NeuroBlossom Logo" />
                         </div>
                     </div>
 
                     {/* Quick Links - shares remaining 55% */}
                     <div className="lg:col-span-2">
-                        <h3 className="content-head text-gray-800 mb-4 md:mb-6">
+                        <h3 className="text-[#222836] scto text-[28px] font-normal leading-[72px] tracking-[-1.68px] mb-4 md:mb-6">
                             Quick Links
                         </h3>
+
                         <ul className="space-y-3 md:space-y-4">
                             {quickLinks.map((link, index) => (
                                 <li key={index}>
@@ -74,7 +79,7 @@ const Footer = () => {
 
                     {/* Follow Us - shares remaining 55% */}
                     <div className="lg:col-span-2">
-                        <h3 className="content-head text-gray-800 mb-4 md:mb-6">
+                        <h3 className="text-[#222836] scto text-[28px] font-normal leading-[72px] tracking-[-1.68px] mb-4 md:mb-6">
                             Follow Us
                         </h3>
                         <ul className="space-y-3 md:space-y-4">
@@ -93,7 +98,7 @@ const Footer = () => {
 
                     {/* Legal - shares remaining 55% */}
                     <div className="lg:col-span-3">
-                        <h3 className="content-head text-gray-800 mb-4 md:mb-6">
+                        <h3 className="text-[#222836] scto text-[28px] font-normal leading-[72px] tracking-[-1.68px] mb-4 md:mb-6">
                             Legal
                         </h3>
                         <ul className="space-y-3 md:space-y-4">

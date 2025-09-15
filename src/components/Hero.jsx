@@ -28,8 +28,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center text-center px-4">
       {/* Hero Content */}
-      <div className="flex flex-col justify-center items-center max-w-3xl mt-12 md:mt-20">
-        <h1 className="text-3xl md:text-5xl font-light text-gray-900 leading-snug">
+      <div className="flex flex-col justify-center items-center w-full  ">
+        <h1 className="text-3xl md:text-5xl scto-head font-light text-gray-900 leading-snug">
           Transforming Autism Assessment <br />
           with AI-Powered{" "}
           <span className="relative inline-block">

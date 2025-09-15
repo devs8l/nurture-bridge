@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Scto";
+    src: url('/fonts/scto.ttf');
+}
+
+.roboto {
+    font-family: "Roboto Flex";
+    font-weight: 400;
+    font-style: normal;
+}
+
 .almarai {
     font-family: "Almarai";
     font-weight: 400;
@@ -11,8 +22,28 @@
     src: url("/fonts/variable/Helius-Regular.otf") format("truetype");
 }
 
+.scto {
+    font-family: "Scto";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.scto-head {
+    color: #222836;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Scto";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    /* 100% */
+    letter-spacing: -5.04px;
+}
+
 .helius {
-    font-family: "Helius";
+    font-family: "Scto";
     font-weight: 400;
     font-style: normal;
 }
@@ -21,9 +52,9 @@
     color: #1F2125;
     leading-trim: both;
     text-edge: cap;
-    font-family: Helius;
+    font-family: "Scto";
     font-size: 55px;
-    font-style: "Helius";
+    font-style: "Scto";
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 1.2px;
@@ -56,29 +87,28 @@
 
 
 .sub-head {
-    color: #1F2125;
+    color: #222836;
     leading-trim: both;
     text-edge: cap;
-    font-family: Helius;
-    font-size: 56px;
+    font-family: "Scto";
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 80px;
-    /* 142.857% */
-    letter-spacing: -1.12px;
+    line-height: 72px;
+    /* 180% */
+    letter-spacing: -2.4px;
 }
 
 .content {
-    color: #1F2125;
+    color: #4F4F4F;
     leading-trim: both;
     text-edge: cap;
-    font-family: "Helius";
-    font-size: 18px;
+    font-family: "Roboto Flex";
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 133.333% */
-    letter-spacing: 0.36px;
+    font-weight: 300;
+    line-height: 30px;
+    /* 150% */
 }
 
 .content-head {

@@ -28,7 +28,7 @@ const Leaders = () => {
         <div className="w-full sm:w-[85%] py-10 mt-10">
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="heading-helius mb-4">
+                <h2 className="scto-head mb-4">
                     Leadership Highlight
                 </h2>
             </div>
@@ -41,7 +41,7 @@ const Leaders = () => {
                         className="relative  rounded-xl  overflow-hidden group transition-all duration-300 "
                     >
                         {/* Image Container */}
-                        <div className="mb-6 md:mb-8">
+                        <div className="mb-6 md:mb-4">
                             <div className="w-full h-48 md:h-90 border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
                                 <img 
                                     src={leaders.image} 
@@ -53,11 +53,11 @@ const Leaders = () => {
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="content-head mb-3 md:mb-4">
+                            <h3 className="sub-head mb-3 md:mb-2">
                                 {leaders.title}
                             </h3>
 
-                            <p className="content text-sm md:text-base">
+                            <p className="content text-sm !md:text-xs">
                                 {leaders.description}
                             </p>
                         </div>

@@ -39,41 +39,45 @@ const Navbar = () => {
         </div>
 
         {/* Centered Nav Links (Desktop/Tablet) */}
-        <div className="hidden sm:flex fixed left-1/2 top-4 transform -translate-x-1/2 items-center gap-6 md:gap-8 border rounded-full px-4 py-2 shadow bg-white/80 backdrop-blur-md z-40">
+        <div className="hidden sm:flex fixed left-1/2 top-5 transform -translate-x-1/2 items-center gap-6 md:gap-8 
+   border-[0.5px] border-[#22283633] rounded-full px-4 py-2 
+  bg-white/40 shadow-[0_4px_80px_rgba(34,40,54,0.20)] backdrop-blur-[20px] z-40 roboto">
+
           <a
             href="#"
-            className="text-sm md:text-base font-medium px-4 py-1 rounded-full bg-white text-gray-900 shadow"
+            className="text-sm md:text-xs font-medium px-4 py-2 rounded-full shadow-[0_4px_80px_rgba(34,40,54,0.20)] bg-white text-gray-900 "
           >
-            Product
+            PRODUCT
           </a>
           <a
             href="#"
-            className="text-gray-600 text-sm md:text-base hover:text-gray-900 transition-colors"
+            className="text-gray-600 text-sm md:text-xs px-2 py-2  hover:text-gray-900 transition-colors"
           >
-            Solutions
+            SOLUTIONS
           </a>
           <a
             href="#"
-            className="text-gray-600 text-sm md:text-base hover:text-gray-900 transition-colors"
+            className="text-gray-600 text-sm md:text-xs px-2 py-2  hover:text-gray-900 transition-colors"
           >
-            About
+            ABOUT
           </a>
           <a
             href="#"
-            className="text-gray-600 text-sm md:text-base hover:text-gray-900 transition-colors"
+            className="text-gray-600 text-sm md:text-xs px-2 py-2 hover:text-gray-900 transition-colors"
           >
-            Resources
+            RESOURCES
           </a>
           <a
             href="#"
-            className="text-gray-600 text-sm md:text-base hover:text-gray-900 transition-colors"
+            className="text-gray-600 text-sm md:text-xs px-2 py-2 hover:text-gray-900 transition-colors"
           >
-            Contact
+            CONTACT
           </a>
         </div>
 
+
         {/* Logo (right side, not fixed) */}
-        <div className="w-24 md:w-32 lg:w-36 flex-shrink-0 ml-auto">
+        <div className="w-24 md:w-50 mt-10 flex-shrink-0 mx-auto">
           <img
             src="/nb-logo.png"
             alt="NurtureBridge Tech Logo"

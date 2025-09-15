@@ -6,7 +6,7 @@ const VisionMission = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
 
                 {/* Vision Card */}
-                <div className="relative bg-white/80 rounded-xl p-8 md:p-15  border border-[#524e4946] overflow-hidden group  transition-all duration-300">
+                <div className="relative bg-white/80 rounded-4xl p-8 md:p-10  border border-[#524e4946] overflow-hidden group  transition-all duration-300">
 
                     <div className="relative z-10">
                         <h2 className="sub-head mb-6 md:mb-8">
@@ -25,7 +25,7 @@ const VisionMission = () => {
                 </div>
 
                 {/* Mission Card */}
-                <div className="relative bg-white/80 rounded-xl p-8 md:p-15  border border-[#524e4946] overflow-hidden group  transition-all duration-300">
+                <div className="relative bg-white/80 rounded-4xl p-8 md:p-10  border border-[#524e4946] overflow-hidden group  transition-all duration-300">
 
 
                     <div className="relative z-10">

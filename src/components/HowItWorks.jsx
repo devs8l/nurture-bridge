@@ -20,10 +20,10 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="bg-white rounded-xl sm:w-[85%] py-16 mt-10 sm:py-20 sm:border border-[#524e4946]">
+    <section className="bg-white rounded-4xl sm:w-[85%] py-16 mt-10 sm:py-20 sm:border border-[#524e4946]">
       {/* Section Header */}
       <div className="text-center mb-12">
-        <h2 className="heading-helius mb-4">How it Works</h2>
+        <h2 className="scto-head mb-4">How it Works</h2>
       </div>
 
       {/* Steps Grid */}
@@ -40,7 +40,7 @@ const HowItWorks = () => {
             </div>
 
             {/* Title */}
-            <h3 className="content-head mb-4">{step.title}</h3>
+            <h3 className="sub-head mb-4">{step.title}</h3>
 
             {/* Description */}
             <p className="content max-w-sm">{step.description}</p>
