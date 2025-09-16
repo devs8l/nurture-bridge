@@ -36,12 +36,13 @@ export default function Banner() {
           </h1>
           
           
-          {/* Call to Action Button */}
+          {/* Call to Action Button 
           <button className="group border-[0.1px] border-white rounded-full text-white px-6 sm:px-5 py-3 sm:py-3 text-sm sm:text-base font-medium tracking-wide  transition-all cursor-pointer duration-300 ease-in-out">
             <span className="inline-block  transition-transform duration-300 content !text-white">
               Learn More About Us
             </span>
           </button>
+          */}
         </div>
       </div>
 

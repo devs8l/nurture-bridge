@@ -1,125 +1,237 @@
 @import "tailwindcss";
 
+/* Fonts */
 @font-face {
-    font-family: "Scto";
-    src: url('/fonts/scto.ttf');
+  font-family: "Scto";
+  src: url('/fonts/scto.ttf');
 }
 
+@font-face {
+  font-family: "Helius";
+  src: url("/fonts/variable/Helius-Regular.otf") format("truetype");
+}
+
+/* Utility font classes */
 .roboto {
-    font-family: "Roboto Flex";
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Roboto Flex";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .almarai {
-    font-family: "Almarai";
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Helius";
-    src: url("/fonts/variable/Helius-Regular.otf") format("truetype");
+  font-family: "Almarai";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .scto {
-    font-family: "Scto";
-    font-weight: 400;
-    font-style: normal;
-}
-
-.scto-head {
-    color: #222836;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: "Scto";
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    /* 100% */
-    letter-spacing: -5.04px;
+  font-family: "Scto";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .helius {
-    font-family: "Scto";
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Helius";
+  font-weight: 400;
+  font-style: normal;
 }
 
+/* ------------------- Headings ------------------- */
+
+/* Big heading (hero/main) */
+.scto-head {
+  color: #222836;
+  text-align: center;
+  font-family: "Scto";
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -3.04px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .scto-head {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .scto-head {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1px;
+  }
+}
+
+/* Section heading (Helius font) */
 .heading-helius {
-    color: #1F2125;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: "Scto";
-    font-size: 55px;
-    font-style: "Scto";
-    font-weight: 400;
-    line-height: 60px;
-    letter-spacing: 1.2px;
+  color: #1F2125;
+  font-family: "Helius";
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 1.2px;
 }
 
-/* iPad (768px - 1024px) */
-@media screen and (max-width: 1024px) {
-    .heading-helius {
-        font-size: 56px;
-        line-height: 64px;
-        letter-spacing: -1.12px;
-    }
-}
-
-/* Mobile (320px - 767px) */
-@media screen and (max-width: 767px) {
-    .heading-helius {
-        color: #FFF;
-        leading-trim: both;
-        text-edge: cap;
-        font-family: Helius;
-        font-size: 32.961px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32.179px;
-        /* 111.111% */
-        letter-spacing: -0.579px;
-    }
-}
-
-
-.sub-head {
-    color: #222836;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: "Scto";
+/* Tablet */
+@media (max-width: 1024px) {
+  .heading-helius {
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    /* 180% */
-    letter-spacing: -2.4px;
+    line-height: 48px;
+    letter-spacing: 0px;
+  }
 }
+
+/* Mobile */
+@media (max-width: 767px) {
+  .heading-helius {
+    color: #FFF;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+  }
+}
+
+/* Sub-headings */
+.sub-head {
+  color: #222836;
+  font-family: "Scto";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .sub-head {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .sub-head {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+  }
+}
+
+/* Section titles */
+.section-title {
+  color: #222836;
+  font-family: "Scto";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -2.8px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -1.5px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 33px;
+    line-height: 36px;
+    letter-spacing: -1px;
+  }
+}
+
+/* ------------------- Content ------------------- */
 
 .content {
-    color: #4F4F4F;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: "Roboto Flex";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 30px;
-    /* 150% */
+  color: #4F4F4F;
+  font-family: "Roboto Flex";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.5px; 
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .content {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .content {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* Content headings */
 .content-head {
-    color: #1F2125;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: Helius;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    /* 100% */
-    letter-spacing: 1px;
+  color: #1F2125;
+  font-family: "Helius";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .content-head {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .content-head {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+}
+
+/* ------------------- Special ------------------- */
+
+.testimonial-content {
+  font-size: 20px;
+  font-family: "Scto";
+  font-weight: 300;
+  line-height: 32px;
+  color: #222836;
+  letter-spacing: -0.5px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .testimonial-content {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .testimonial-content {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
 }

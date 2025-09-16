@@ -17,10 +17,10 @@ const Testimonials = () => {
     ];
 
     return (
-        <div className="w-full sm:w-[85%] py-10 mt-10">
+        <div className="w-full sm:w-[85%] py-10 mt-10" id='testimonials'>
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="scto-head mb-4">
+                <h2 className="section-title mb-4">
                     Testimonials
                 </h2>
             </div>
@@ -30,11 +30,11 @@ const Testimonials = () => {
                 {testimonials.map((testimonial, index) => (
                     <div
                         key={index}
-                        className="relative bg-white/80 rounded-xl p-8 md:p-12 border border-[#524e4946] overflow-hidden group transition-all duration-300 "
+                        className="relative bg-white/80 rounded-3xl p-8 md:p-12 border border-[#d3d4d7]/60 overflow-hidden group transition-all duration-300 "
                     >
                         {/* Quote */}
                         <div className="mb-8 md:mb-10 ">
-                            <p className="text-[#222836] text-[32px] font-normal leading-[40px] tracking-[-1.92px] scto">
+                            <p className="font-normal testimonial-content">
                                 "{testimonial.quote}"
                             </p>
 
@@ -56,10 +56,10 @@ const Testimonials = () => {
 
                             {/* Name and Title */}
                             <div>
-                                <h3 className="content text-gray-800 mb-1">
+                                <p className="testimonial-content text-gray-800 !text-[18px] !leading-[32px]">
                                     {testimonial.name}
-                                </h3>
-                                <p className="content text-gray-600 text-sm md:text-base">
+                                </p>
+                                <p className="content text-gray-600">
                                     {testimonial.title}
                                 </p>
                             </div>

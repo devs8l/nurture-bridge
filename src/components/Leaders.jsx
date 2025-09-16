@@ -28,13 +28,13 @@ const Leaders = () => {
         <div className="w-full sm:w-[85%] py-10 mt-10">
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="scto-head mb-4">
+                <h2 className="section-title mb-4">
                     Leadership Highlight
                 </h2>
             </div>
 
             {/* Use Cases Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 {leaders.map((leaders, index) => (
                     <div 
                         key={index}
@@ -42,7 +42,7 @@ const Leaders = () => {
                     >
                         {/* Image Container */}
                         <div className="mb-6 md:mb-4">
-                            <div className="w-full h-48 md:h-90 border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
+                            <div className="w-full h-full border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
                                 <img 
                                     src={leaders.image} 
                                     alt={leaders.title}
@@ -53,11 +53,11 @@ const Leaders = () => {
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="sub-head mb-3 md:mb-2">
+                            <h3 className="testimonial-content mb-2 md:mb-1">
                                 {leaders.title}
                             </h3>
 
-                            <p className="content text-sm !md:text-xs">
+                            <p className="content">
                                 {leaders.description}
                             </p>
                         </div>

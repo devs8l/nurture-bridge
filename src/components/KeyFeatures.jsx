@@ -25,10 +25,10 @@ const KeyFeatures = () => {
     ];
 
     return (
-        <div className="w-full sm:w-[85%] py-10 mt-10">
+        <div className="w-full sm:w-[85%] py-10 mt-10" id='key-features'>
             {/* Section Header */}
             <div className="text-center mb-12 md:mb-16">
-                <h2 className="scto-head mb-4">
+                <h2 className="section-title mb-4">
                     Key Features
                 </h2>
             </div>
@@ -38,11 +38,11 @@ const KeyFeatures = () => {
                 {features.map((feature, index) => (
                     <div 
                         key={index}
-                        className="relative bg-white/80 rounded-xl p-8 md:p-8 border border-[#524e4946] overflow-hidden group transition-all duration-300"
+                        className="relative bg-white/80 rounded-3xl p-8 md:p-8 border border-[#d3d4d7]/60 overflow-hidden group transition-all duration-300"
                     >
                         {/* Image Container */}
                         <div className="mb-6 md:mb-8">
-                            <div className="w-full h-48 md:h-56 lg:h-64 bg-gray-100 border border-[#524e4946] rounded-lg overflow-hidden">
+                            <div className="w-full h-48 md:h-56 lg:h-64 bg-gray-100 border border-[#d3d4d7]/60 rounded-lg overflow-hidden">
                                 <img 
                                     src={feature.image} 
                                     alt={feature.title}
@@ -53,7 +53,7 @@ const KeyFeatures = () => {
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="sub-head mb-4 md:mb-4">
+                            <h3 className="testimonial-content">
                                 {feature.title}
                             </h3>
 

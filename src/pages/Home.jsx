@@ -14,7 +14,7 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div className="flex flex-col sm:py-10 items-center justify-center min-h-screen bg-[#fff]">
+    <div className="flex flex-col px-3 sm:px-38 sm:py-5 items-center justify-center min-h-screen bg-[#f5f5f5]">
       <Navbar />
       <Hero />
       <Banner />

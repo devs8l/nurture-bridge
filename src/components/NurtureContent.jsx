@@ -20,7 +20,7 @@ const NurtureContent = () => {
                 {/* Main Heading */}
                 <div className="text-center mb-8 md:mb-12 relative z-10">
                     
-                    <h2 className="scto-head mb-6 w-full md:mb-8 leading-tight !text-white">
+                    <h2 className="scto-head mb-6 w-full md:mb-8 !text-white">
                         NurtureBridge Tech is an offshoot of We 
                         <br className="hidden sm:block" />
                         Nurture Foundation, impacting <span className="relative inline-block">
@@ -36,7 +36,7 @@ const NurtureContent = () => {
 
                 {/* Mission Statement */}
                 <div className="text-center max-w-4xl mx-auto relative z-10">
-                    <p className="content text-lg md:text-xl leading-relaxed !text-white">
+                    <p className="content !text-white">
                         A world where AI-powered early identification and intervention unlock 
                         <br className="hidden md:block" />
                         new possibilities for every child with developmental challenges.

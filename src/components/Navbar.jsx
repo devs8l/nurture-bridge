@@ -1,11 +1,10 @@
-// Navbar.jsx
 import React, { useState } from "react";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full z-50">
+    <div className="w-full z-50 relative">
       <div className="relative flex items-center justify-between px-4 sm:px-8 py-4">
         {/* Mobile Menu Button (left side) */}
         <div className="flex sm:hidden">
@@ -39,39 +38,39 @@ const Navbar = () => {
         </div>
 
         {/* Centered Nav Links (Desktop/Tablet) */}
-        <div className="hidden sm:flex fixed left-1/2 top-5 transform -translate-x-1/2 items-center gap-6 md:gap-8 
-   border-[0.5px] border-[#22283633] rounded-full px-4 py-2 
+        <div className="hidden sm:flex fixed left-1/2 top-5 transform -translate-x-1/2 items-center gap-6 md:gap-2 uppercase
+   border-[0.5px] border-[#22283633] rounded-full px-2 py-2 
   bg-white/40 shadow-[0_4px_80px_rgba(34,40,54,0.20)] backdrop-blur-[20px] z-40 roboto">
 
           <a
             href="#"
             className="text-sm md:text-xs font-medium px-4 py-2 rounded-full shadow-[0_4px_80px_rgba(34,40,54,0.20)] bg-white text-gray-900 "
           >
-            PRODUCT
+            About
           </a>
           <a
-            href="#"
+            href="#how-it-works"
             className="text-gray-600 text-sm md:text-xs px-2 py-2  hover:text-gray-900 transition-colors"
           >
-            SOLUTIONS
+            How it works
           </a>
           <a
-            href="#"
+            href="#key-features"
             className="text-gray-600 text-sm md:text-xs px-2 py-2  hover:text-gray-900 transition-colors"
           >
-            ABOUT
+            key features
           </a>
           <a
-            href="#"
+            href="#solution"
             className="text-gray-600 text-sm md:text-xs px-2 py-2 hover:text-gray-900 transition-colors"
           >
-            RESOURCES
+            Solution
           </a>
           <a
-            href="#"
+            href="#testimonials"
             className="text-gray-600 text-sm md:text-xs px-2 py-2 hover:text-gray-900 transition-colors"
           >
-            CONTACT
+           testimonials
           </a>
         </div>
 
@@ -87,25 +86,28 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Dropdown Menu */}
-      {menuOpen && (
-        <div className="sm:hidden flex flex-col space-y-4 px-6 pb-6 bg-white shadow-md border-t">
-          <a href="#" className="text-gray-700 text-base hover:text-gray-900">
-            Product
-          </a>
-          <a href="#" className="text-gray-700 text-base hover:text-gray-900">
-            Solutions
-          </a>
+      <div
+        className={`sm:hidden absolute top-full left-0 w-full bg-white shadow-md border-t transform transition-all duration-300 ease-in-out origin-top 
+          ${menuOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}`}
+      >
+        <div className="flex flex-col space-y-4 px-6 py-6">
           <a href="#" className="text-gray-700 text-base hover:text-gray-900">
             About
           </a>
           <a href="#" className="text-gray-700 text-base hover:text-gray-900">
-            Resources
+            How it works
           </a>
           <a href="#" className="text-gray-700 text-base hover:text-gray-900">
-            Contact
+            key features
+          </a>
+          <a href="#" className="text-gray-700 text-base hover:text-gray-900">
+             Solution
+          </a>
+          <a href="#" className="text-gray-700 text-base hover:text-gray-900">
+            testimonials
           </a>
         </div>
-      )}
+      </div>
     </div>
   );
 };
