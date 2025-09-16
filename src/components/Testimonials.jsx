@@ -26,7 +26,7 @@ const Testimonials = () => {
             </div>
 
             {/* Testimonials Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {testimonials.map((testimonial, index) => (
                     <div
                         key={index}

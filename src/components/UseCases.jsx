@@ -34,11 +34,11 @@ const UseCases = () => {
       </div>
 
       {/* Main 2-Column Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-[6fr_4fr] gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[6fr_4fr] gap-4">
         {/* Left Column */}
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-4">
           {/* Row 1: Parents + Hospitals */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Parents */}
             <div className="relative rounded-4xl bg-[#EFB167] flex flex-col items-center px-8 h-auto overflow-hidden">
               <div className="w-full py-6">

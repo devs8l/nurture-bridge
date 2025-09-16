@@ -34,7 +34,7 @@ const KeyFeatures = () => {
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {features.map((feature, index) => (
                     <div 
                         key={index}
@@ -42,11 +42,11 @@ const KeyFeatures = () => {
                     >
                         {/* Image Container */}
                         <div className="mb-6 md:mb-8">
-                            <div className="w-full h-48 md:h-56 lg:h-64 bg-gray-100 border border-[#d3d4d7]/60 rounded-lg overflow-hidden">
+                            <div className="w-full h-auto bg-gray-100 border border-[#d3d4d7]/60 rounded-lg overflow-hidden">
                                 <img 
                                     src={feature.image} 
                                     alt={feature.title}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
                         </div>

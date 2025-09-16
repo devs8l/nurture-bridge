@@ -2,8 +2,8 @@ import React from 'react';
 
 const VisionMission = () => {
     return (
-        <div className="w-full sm:w-[85%] py-10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+        <div className="w-full sm:w-[85%]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 {/* Vision Card */}
                 <div className="relative bg-white/80 rounded-3xl p-8 md:p-10  border border-[#d3d4d7]/60 overflow-hidden group  transition-all duration-300">
