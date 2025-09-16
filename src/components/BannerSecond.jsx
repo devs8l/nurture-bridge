@@ -13,14 +13,14 @@ export default function BannerSecond() {
         playsInline
       />
 
-
+    <div className='w-full h-full absolute bg-[#00000036]'></div>
       
 
       {/* Content Container */}
       <div className="relative z-10  w-[50%] flex items-center h-full px-6 sm:px-8 md:px-12 lg:px-16">
         <div className="flex flex-col items-start gap-15">
           {/* Main Heading */}
-          <h1 className="!text-white scto-head !text-left text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-8">
+          <h1 className="!text-white banner-head !text-left  font-light leading-tight mb-8">
             Because early 
             <br />
             action changes
