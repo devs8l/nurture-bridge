@@ -61,8 +61,8 @@
 /* Mobile */
 @media (max-width: 767px) {
   .scto-head {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: -1px;
   }
 }

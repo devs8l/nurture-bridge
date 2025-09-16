@@ -20,9 +20,9 @@ const NurtureContent = () => {
                 {/* Main Heading */}
                 <div className="text-center mb-8 md:mb-12 relative z-10">
                     
-                    <h2 className="scto-head mb-6 w-full md:mb-8 !text-white">
+                    <h2 className="scto-head  mb-6 w-full md:mb-8 !text-white">
                         NurtureBridge Tech is an offshoot of We 
-                        <br className="hidden sm:block" />
+                        
                         Nurture Foundation, impacting <span className="relative inline-block">
                         1,500+ families.
                         <img
