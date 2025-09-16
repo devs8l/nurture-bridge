@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BannerSecond() {
   return (
-    <div className="relative w-full sm:w-[85%] rounded-xl flex flex-col justify-center h-[500px] overflow-hidden">
+    <div className="relative w-full sm:w-[85%] my-10 rounded-xl flex flex-col justify-center h-[500px] overflow-hidden">
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"

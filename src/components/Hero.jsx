@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col items-center text-center px-4">
+    <div className="flex flex-col items-center text-center px-4" id="about">
       {/* Hero Content */}
       <div className="flex flex-col justify-center items-center w-full  ">
         <h1 className="scto-head font-light text-gray-900 leading-snug">

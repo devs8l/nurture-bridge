@@ -1,6 +1,29 @@
-import React from 'react';
+import React, { useEffect } from "react";
 
 const Footer = () => {
+
+    const formId = "3lxWpp";
+    
+      useEffect(() => {
+        if (!window.Tally) {
+          const script = document.createElement("script");
+          script.src = "https://tally.so/widgets/embed.js";
+          script.async = true;
+          document.head.appendChild(script);
+        }
+      }, []);
+    
+      const openContactForm = () => {
+        if (window.Tally) {
+          window.Tally.openPopup(formId, {
+            layout: "modal",
+            width: 700,
+            overlay: true,
+            hideTitle: true,
+          });
+        }
+      };
+
     {/*const quickLinks = [
         "Product",
         "Solutions",
@@ -25,7 +48,7 @@ const Footer = () => {
             <div
                 className="relative bg-white border border-[#d3d4d7]/60 rounded-3xl p-8 md:p-12 lg:p-16 overflow-hidden"
                 style={{
-                    backgroundImage: `url('/gradient.png')`, // Replace with your actual background image
+                    //backgroundImage: `url('/gradient.png')`, // Replace with your actual background image
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundBlendMode: 'overlay'
@@ -47,8 +70,10 @@ const Footer = () => {
 
 
                         <button className="bg-[#F7941D] text-white rounded-full shadow-[0_4px_50px_rgba(247,148,29,0.40)] 
-  helius px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-medium 
-   transition-colors duration-300 cursor-pointer">
+                            helius px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-medium 
+                            transition-colors duration-300 cursor-pointer"
+                            onClick={openContactForm}
+                        >
                             Request a Demo
                         </button>
 

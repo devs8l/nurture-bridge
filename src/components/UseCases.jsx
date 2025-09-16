@@ -25,7 +25,7 @@ const useCases = [
 
 const UseCases = () => {
   return (
-    <div className="w-full sm:w-[85%] py-12 mt-10 mx-auto sm:px-0" id="solution">
+    <div className="w-full sm:w-[85%] py-10 mx-auto sm:px-0" id="solution">
       {/* Section Heading */}
       <div className="text-center mb-12 md:mb-16">
         <h2 className="section-title mb-4">
