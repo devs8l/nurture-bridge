@@ -5,22 +5,22 @@ const Leaders = () => {
         {
             image: "/gayatri.png", // Replace with your actual image
             title: "Gayathri Ananth",
-            description: "Founding Member & Chief Executive Officer"
+            description: "Co-Founder & Chief Executive Officer"
         },
         {
             image: "/harini.png", // Replace with your actual image
             title: "Harini Srinivasan",
-            description: "Founding Member & Chief of Operations"
+            description: "Co-Founder & Chief of Research"
         },
-        /*{
-            image: "/Gurudutt.png", // Replace with your actual image
-            title: "Gurudutt Rao",
-            description: "Founding Member & Chief of Strategy"
-        },*/
+        {
+            image: "/Harshit Pandey.png", // Replace with your actual image
+            title: "Harshit Pandey",
+            description: "Co-Founder & Chief of Technology"
+        },
         {
             image: "/devjeet.png", // Replace with your actual image
             title: "Devjeet Choudhury",
-            description: "Founding Member & Chief of Technology"
+            description: "Co-Founder & Chief of Product"
         }
     ];
 
@@ -34,7 +34,7 @@ const Leaders = () => {
             </div>
 
             {/* Use Cases Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {leaders.map((leaders, index) => (
                     <div 
                         key={index}
