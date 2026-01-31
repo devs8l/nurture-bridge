@@ -43,11 +43,12 @@
   color: #222836;
   text-align: center;
   font-family: "Scto";
-  font-size: 62px;
+  font-size: 56px;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: -3.04px;
 }
+
 .banner-head {
   color: #222836;
   text-align: center;
@@ -65,6 +66,7 @@
     line-height: 56px;
     letter-spacing: -2px;
   }
+
   .banner-head {
     font-size: 48px;
     line-height: 56px;
@@ -79,6 +81,7 @@
     line-height: 30px;
     letter-spacing: -1px;
   }
+
   .banner-head {
     font-size: 46px;
     line-height: 39px;
@@ -119,7 +122,7 @@
 .sub-head {
   color: #222836;
   font-family: "Scto";
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 60px;
   letter-spacing: -1.5px;
@@ -179,7 +182,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
 }
 
 /* Tablet */
@@ -253,4 +256,23 @@
     line-height: 24px;
     letter-spacing: -0.2px;
   }
+}
+
+
+.banner-head {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Scto";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 100% */
+  letter-spacing: -2.56px;
+}
+
+.radial-cta {
+  border-radius: 10px;
+  background: radial-gradient(100.88% 63.54% at 50% -13.54%, #474761 0%, #1C1C31 100%);
 }

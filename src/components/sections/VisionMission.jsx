@@ -2,7 +2,7 @@ import React from 'react';
 
 const VisionMission = () => {
     return (
-        <div className="w-full sm:w-[85%]">
+        <div className="w-full ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 {/* Vision Card */}

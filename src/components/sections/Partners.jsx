@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NurtureContent = () => {
+const Partners = () => {
     return (
         <div className="w-full sm:w-[85%] py-10">
             {/* Main Content Container */}
@@ -16,37 +16,37 @@ const NurtureContent = () => {
                 </video>
                 <div className='w-full h-full absolute inset-0 bg-[#000000] opacity-50 rounded-xl'>
 
-                    </div>
+                </div>
                 {/* Main Heading */}
                 <div className="text-center mb-8 md:mb-12 relative z-10">
-                    
+
                     <h2 className="scto-head  mb-6 w-full md:mb-8 !text-white">
-                        NurtureBridge Tech is an offshoot of We 
-                        
+                        NurtureBridge Tech is an offshoot of We
+
                         Nurture Foundation, impacting <span className="relative inline-block">
-                        1,500+ families.
-                        <img
-                            src="/white-stroke.svg"
-                            alt=""
-                            className="absolute w-60 -bottom-4 left-1/2 -translate-x-1/2"
-                        />
-                    </span>
+                            1,500+ families.
+                            <img
+                                src="/white-stroke.svg"
+                                alt=""
+                                className="absolute w-60 -bottom-4 left-1/2 -translate-x-1/2"
+                            />
+                        </span>
                     </h2>
                 </div>
 
                 {/* Mission Statement */}
                 <div className="text-center max-w-4xl mx-auto relative z-10">
                     <p className="content !text-white">
-                        A world where AI-powered early identification and intervention unlock 
+                        A world where AI-powered early identification and intervention unlock
                         <br className="hidden md:block" />
                         new possibilities for every child with developmental challenges.
                     </p>
                 </div>
 
-                
+
             </div>
         </div>
     );
 };
 
-export default NurtureContent;
+export default Partners;
