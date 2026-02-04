@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Hero from '../components/sections/Hero'
+import ProductShowcase from '../components/sections/ProductShowcase'
 import Incubators from '../components/sections/Incubators'
 import VisionMission from '../components/sections/VisionMission'
 import CTABanner from '../components/sections/CTABanner'
@@ -11,6 +12,7 @@ import Leaders from '../components/sections/Leaders'
 import Testimonials from '../components/sections/Testimonials'
 import Footer from '../components/layout/Footer'
 import CTABannerAlt from '../components/sections/CTABannerAlt'
+import EarlyIntervention from '../components/sections/EarlyIntervention'
 
 const Home = () => {
   const formId = "3lxWpp";
@@ -38,16 +40,18 @@ const Home = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden bg-white">
       <Hero openContactForm={openContactForm} />
-      <div className="flex flex-col px-5 sm:px-15 sm:py-5 items-center justify-center bg-white">
+      <ProductShowcase />
+      <div className="flex flex-col gap-30 px-5 sm:px-15 sm:py-5 items-center justify-center bg-white">
         <Incubators />
-        <CTABanner openContactForm={openContactForm} />
-        <VisionMission />
+        {/* <CTABanner openContactForm={openContactForm} /> */}
+        {/* <VisionMission /> */}
         <HowItWorks />
-        <KeyFeatures />
+        <EarlyIntervention />
+        {/* <KeyFeatures /> */}
         <UseCases />
-        <CTABannerAlt />
+        {/* <CTABannerAlt /> */}
         <Testimonials />
-        <Partners />
+        {/* <Partners /> */}
         <Leaders />
       </div>
       <div className='p-4'>

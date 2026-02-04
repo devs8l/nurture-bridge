@@ -25,9 +25,9 @@ const KeyFeatures = () => {
     ];
 
     return (
-        <div className="w-full sm:w-[85%] py-10 mt-10" id='key-features'>
+        <div className="w-full sm:w-[85%] py-20" id='key-features'>
             {/* Section Header */}
-            <div className="text-center mb-12 md:mb-16">
+            <div className="text-center mb-16">
                 <h2 className="section-title mb-4">
                     Key Features
                 </h2>

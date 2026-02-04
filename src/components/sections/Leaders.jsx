@@ -5,29 +5,29 @@ const Leaders = () => {
         {
             image: "/gayatri_bit.png", // Replace with your actual image
             title: "Gayathri Ananth",
-            description: "Founding Member & Chief Executive Officer"
+            description: "Co-Founder & CEO"
         },
         {
             image: "/Harini_bit.png", // Replace with your actual image
             title: "Harini Srinivasan",
-            description: "Founding Member & Chief of Operations"
+            description: "Co-Founder & COO"
         },
         {
             image: "/Harshit_bit.png", // Replace with your actual image
             title: "Harshit Pandey",
-            description: "Founding Member & Chief of Strategy"
+            description: "Co-Founder & CTO"
         },
         {
             image: "/devjeet_bit.png", // Replace with your actual image
             title: "Devjeet Choudhury",
-            description: "Founding Member & Chief of Technology"
+            description: "Co-Founder & CPO"
         }
     ];
 
     return (
-        <div className="w-full  py-10">
+        <div className="w-full ">
             {/* Section Header */}
-            <div className="text-center mb-12 md:mb-16">
+            <div className="text-center mb-5">
                 <h2 className="section-title mb-4">
                     Leadership Highlight
                 </h2>

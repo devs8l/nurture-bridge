@@ -47,11 +47,10 @@ const Header = ({ openContactForm }) => {
     }, [activeSection]);
 
     const navLinks = [
-        { id: "about", label: "About" },
-        { id: "how-it-works", label: "How it works" },
-        { id: "key-features", label: "Key features" },
-        { id: "solution", label: "Solution" },
-        { id: "testimonials", label: "Testimonials" },
+        { id: "about", label: "ABOUT" },
+        { id: "how-it-works", label: "HOW IT WORKS" },
+        { id: "solution", label: "SOLUTION" },
+        { id: "testimonials", label: "TESTIMONIALS" },
     ];
 
     const scrollToSection = (id) => {
@@ -120,7 +119,7 @@ const Header = ({ openContactForm }) => {
 
                 {/* Contact Us Button / Mobile Menu */}
                 <div className="flex-1 flex justify-end">
-                    <button onClick={openContactForm} className="hidden md:block bg-[#ffffffc5] roboto backdrop-blur-sm text-gray-900 px-8 py-3 rounded-md text-xs font-medium hover:bg-white transition-all duration-300  uppercase cursor-pointer">
+                    <button onClick={openContactForm} className="hidden md:block bg-[#FFFFFFCC] roboto backdrop-blur-sm text-gray-900 px-8 py-3 rounded-full text-xs font-medium hover:bg-white transition-all duration-300  uppercase cursor-pointer">
                         Contact Us
                     </button>
 
@@ -159,7 +158,7 @@ const Header = ({ openContactForm }) => {
             {/* Fixed Center Navbar Only */}
             <div className="fixed top-5 md:top-10 left-1/2 transform -translate-x-1/2 z-[100]">
 
-                <div className="hidden md:flex items-center gap-0 uppercase border-[0.5px] border-[#22283633] rounded-full px-2 py-2 bg-white/40 shadow-[0_4px_80px_rgba(34,40,54,0.20)] backdrop-blur-[20px] roboto overflow-hidden relative">
+                <div className="hidden md:flex items-center gap-0 uppercase border-[0.5px] border-[#2228361f] rounded-full px-2 py-2 bg-[#26364B0D] shadow-[0_4px_80px_rgba(34,40,54,0.20)] backdrop-blur-[20px] roboto overflow-hidden relative">
 
                     {/* Animated Background Indicator */}
                     <div
@@ -179,7 +178,7 @@ const Header = ({ openContactForm }) => {
                             onClick={() => scrollToSection(link.id)}
                             onMouseEnter={() => handleMouseEnter(link.id)}
                             onMouseLeave={handleMouseLeave}
-                            className={`text-sm md:text-xs px-4 py-2 rounded-full transition-colors duration-300 cursor-pointer relative z-10 ${activeSection === link.id
+                            className={`text-sm md:text-xs px-4 py-2  rounded-full transition-colors duration-300 cursor-pointer relative z-10 ${activeSection === link.id
                                 ? "text-gray-900 font-medium"
                                 : "text-gray-600 hover:text-gray-900"
                                 }`}

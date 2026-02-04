@@ -41,10 +41,10 @@ const Footer = ({ openContactForm }) => {
                         </div>
 
                         {/* Links Grid */}
-                        <div className="grid grid-cols-2 gap-8">
+                        <div className=" w-1/3 grid grid-cols-2 gap-2">
                             {/* Follow Us */}
                             <div>
-                                <h3 className="text-gray-900 font-medium text-sm mb-4">Follow Us</h3>
+                                <h3 className="text-gray-900 font-medium text-lg mb-4">Follow Us</h3>
                                 <ul className="space-y-3">
                                     {socialLinks.map((link, index) => (
                                         <li key={index}>
@@ -63,7 +63,7 @@ const Footer = ({ openContactForm }) => {
 
                             {/* Legal */}
                             <div>
-                                <h3 className="text-gray-900 font-medium text-sm mb-4">Legal</h3>
+                                <h3 className="text-gray-900 font-medium text-lg mb-4">Legal</h3>
                                 <ul className="space-y-3">
                                     {legalLinks.map((link, index) => (
                                         <li key={index}>
@@ -82,15 +82,15 @@ const Footer = ({ openContactForm }) => {
 
                     {/* Right Section - CTA */}
                     <div className="flex flex-col justify-center items-start lg:items-end text-left ">
-                        <div className="flex items-start justify-start flex-col">
-                            <h2 className="sub-head text-gray-900 mb-6 !text-left ">
+                        <div className="flex items-start justify-start flex-col gap-3">
+                            <h2 className="footer-heading text-gray-900 mb-6 !text-left ">
                                 Request a demo and see<br />
                                 the difference for yourself.
                             </h2>
 
                             <button
                                 onClick={openContactForm}
-                                className="radial-cta  text-white px-6 py-2.5 rounded-md text-xs font-medium hover:bg-[#1f2130] transition-all duration-300 shadow-md uppercase cursor-pointer roboto flex items-center gap-2"
+                                className="radial-cta  text-white px-6 py-3 !rounded-full text-xs font-medium hover:bg-[#1f2130] transition-all duration-300 shadow-md uppercase cursor-pointer roboto flex items-center gap-2"
                             >
                                 REQUEST FOR DEMO
                                 <svg

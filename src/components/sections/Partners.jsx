@@ -2,7 +2,7 @@ import React from 'react';
 
 const Partners = () => {
     return (
-        <div className="w-full sm:w-[85%] py-10">
+        <div className="w-full sm:w-[85%] py-20">
             {/* Main Content Container */}
             <div className="relative rounded-4xl p-8 md:p-25 flex flex-col  border border-[#524e4946] overflow-hidden group transition-all duration-300">
                 <video

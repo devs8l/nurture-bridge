@@ -2,10 +2,10 @@ import React from 'react';
 
 const Incubators = () => {
     return (
-        <div className="w-full py-16 md:py-24 bg-white">
+        <div className="w-full py-20 bg-white">
             <div className="max-w-6xl mx-auto px-6 md:px-12">
                 {/* Section Heading */}
-                <h2 className="section-title text-center mb-6">
+                <h2 className="section-title text-center mb-16">
                     Meet Cohera
                 </h2>
 
