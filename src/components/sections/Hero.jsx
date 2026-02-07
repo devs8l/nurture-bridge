@@ -40,7 +40,7 @@ const Hero = ({ openContactForm }) => {
               /> */}
             </span>
           </h1>
-
+          {/* Hero Description */}
           <p className="content text-gray-700 max-w-2xl text-sm sm:text-base md:text-lg px-2" style={{marginBottom: 'clamp(2vh, 2.5vh, 3vh)' }}>
             From months-long waitlists to real-time results — <br className="hidden sm:block" />
             empowering families and professionals to act early.
