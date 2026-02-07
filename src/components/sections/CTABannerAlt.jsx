@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CTABannerAlt() {
     return (
-        <div className="relative w-full sm:w-[85%] my-10 rounded-xl flex flex-col justify-center h-[500px] overflow-hidden">
+        <div className="relative w-full sm:w-[85%] my-6 sm:my-8 lg:my-10 rounded-xl flex flex-col justify-center h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] overflow-hidden">
             {/* Background Video */}
             <video
                 className="absolute inset-0 w-full h-full object-cover"
@@ -17,10 +17,10 @@ export default function CTABannerAlt() {
 
 
             {/* Content Container */}
-            <div className="relative z-10  w-[50%] flex items-center h-full px-6 sm:px-8 md:px-12 lg:px-16">
+            <div className="relative z-10 w-full sm:w-[85%] md:w-[70%] lg:w-[50%] flex items-center h-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
                 <div className="flex flex-col items-start gap-15">
                     {/* Main Heading */}
-                    <h1 className="!text-white banner-head !text-left  font-light leading-tight mb-8">
+                    <h1 className="!text-white banner-head !text-left font-light leading-tight mb-6 sm:mb-7 md:mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl break-words">
                         Because early
                         <br />
                         action changes
@@ -30,7 +30,7 @@ export default function CTABannerAlt() {
                             <img
                                 src="/white-stroke.svg"
                                 alt=""
-                                className="absolute w-60 -bottom-4 left-1/2 -translate-x-1/2"
+                                className="absolute w-32 sm:w-40 md:w-52 lg:w-60 -bottom-2 sm:-bottom-3 md:-bottom-4 left-1/2 -translate-x-1/2"
                             />
                         </span>
                     </h1>

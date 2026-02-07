@@ -25,23 +25,23 @@ const KeyFeatures = () => {
     ];
 
     return (
-        <div className="w-full sm:w-[85%] py-20" id='key-features'>
+        <div className="w-full sm:w-[85%] py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-0" id='key-features'>
             {/* Section Header */}
-            <div className="text-center mb-16">
-                <h2 className="section-title mb-4">
+            <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16">
+                <h2 className="section-title mb-3 sm:mb-4 text-2xl sm:text-3xl md:text-4xl px-2">
                     Key Features
                 </h2>
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
                 {features.map((feature, index) => (
                     <div 
                         key={index}
-                        className="relative bg-white/80 rounded-3xl p-8 md:p-8 border border-[#d3d4d7]/60 overflow-hidden group transition-all duration-300"
+                        className="relative bg-white/80 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 border border-[#d3d4d7]/60 overflow-hidden group transition-all duration-300"
                     >
                         {/* Image Container */}
-                        <div className="mb-6 md:mb-8">
+                        <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8">
                             <div className="w-full h-auto bg-gray-100 border border-[#d3d4d7]/60 rounded-lg overflow-hidden">
                                 <img 
                                     src={feature.image} 
@@ -53,11 +53,11 @@ const KeyFeatures = () => {
 
                         {/* Content */}
                         <div className="relative z-10">
-                            <h3 className="testimonial-content">
+                            <h3 className="testimonial-content text-base sm:text-lg md:text-xl break-words">
                                 {feature.title}
                             </h3>
 
-                            <p className="content max-w-sm">
+                            <p className="content max-w-sm text-sm sm:text-base break-words">
                                 {feature.description}
                             </p>
                         </div>

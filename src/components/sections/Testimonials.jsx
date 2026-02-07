@@ -108,55 +108,6 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </div>
-
-                        {/* Navigation Buttons - Below Author Info */}
-                        <div className="flex items-center justify-center gap-3">
-                            <button
-                                onClick={handlePrev}
-                                className="w-10 h-10 rounded-full bg-white border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50 transition-all duration-300 flex items-center justify-center cursor-pointer group"
-                                aria-label="Previous testimonial"
-                            >
-                                <svg
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="text-gray-600 group-hover:text-gray-900 transition-colors"
-                                >
-                                    <path
-                                        d="M15 18L9 12L15 6"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-                            </button>
-
-                            <button
-                                onClick={handleNext}
-                                className="w-10 h-10 rounded-full bg-white border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50 transition-all duration-300 flex items-center justify-center cursor-pointer group"
-                                aria-label="Next testimonial"
-                            >
-                                <svg
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="text-gray-600 group-hover:text-gray-900 transition-colors"
-                                >
-                                    <path
-                                        d="M9 18L15 12L9 6"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>

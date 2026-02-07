@@ -2,9 +2,9 @@ import React from 'react';
 
 const Partners = () => {
     return (
-        <div className="w-full sm:w-[85%] py-20">
+        <div className="w-full sm:w-[85%] py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-0">
             {/* Main Content Container */}
-            <div className="relative rounded-4xl p-8 md:p-25 flex flex-col  border border-[#524e4946] overflow-hidden group transition-all duration-300">
+            <div className="relative rounded-2xl sm:rounded-3xl lg:rounded-4xl p-6 sm:p-8 md:p-12 lg:p-16 xl:p-25 flex flex-col border border-[#524e4946] overflow-hidden group transition-all duration-300">
                 <video
                     autoPlay
                     loop
@@ -18,9 +18,9 @@ const Partners = () => {
 
                 </div>
                 {/* Main Heading */}
-                <div className="text-center mb-8 md:mb-12 relative z-10">
+                <div className="text-center mb-6 sm:mb-7 md:mb-8 lg:mb-12 relative z-10">
 
-                    <h2 className="scto-head  mb-6 w-full md:mb-8 !text-white">
+                    <h2 className="scto-head mb-4 sm:mb-5 md:mb-6 lg:mb-8 w-full !text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl px-2 break-words leading-snug">
                         NurtureBridge Tech is an offshoot of We
 
                         Nurture Foundation, impacting <span className="relative inline-block">
@@ -28,17 +28,17 @@ const Partners = () => {
                             <img
                                 src="/white-stroke.svg"
                                 alt=""
-                                className="absolute w-60 -bottom-4 left-1/2 -translate-x-1/2"
+                                className="absolute w-32 sm:w-40 md:w-48 lg:w-60 -bottom-2 sm:-bottom-3 md:-bottom-4 left-1/2 -translate-x-1/2"
                             />
                         </span>
                     </h2>
                 </div>
 
                 {/* Mission Statement */}
-                <div className="text-center max-w-4xl mx-auto relative z-10">
-                    <p className="content !text-white">
+                <div className="text-center max-w-4xl mx-auto relative z-10 px-4">
+                    <p className="content !text-white text-sm sm:text-base md:text-lg break-words">
                         A world where AI-powered early identification and intervention unlock
-                        <br className="hidden md:block" />
+                        <br className="hidden sm:block" />
                         new possibilities for every child with developmental challenges.
                     </p>
                 </div>
