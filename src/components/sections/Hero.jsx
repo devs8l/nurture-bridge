@@ -11,12 +11,12 @@ const Hero = ({ openContactForm }) => {
         style={{
           backgroundImage: 'url("/hero_cohera.png")',
           backgroundSize: 'cover',
-          backgroundPosition: '10% 50%',
+          backgroundPosition: '10% 80%',
           backgroundRepeat: 'no-repeat',
         }}
       >
         {/* Fadeout overlay at the bottom */}
-        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 lg:h-32 bg-gradient-to-t from-[#ffffffaa] to-transparent pointer-events-none z-20"></div>
+        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 lg:h-32 bg-gradient-to-t from-white to-transparent pointer-events-none z-20"></div>
         
         {/* Optional overlay for better text readability */}
         {/* <div className="absolute inset-0 backdrop-blur-[0.5px]"></div> */}

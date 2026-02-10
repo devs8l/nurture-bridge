@@ -22,24 +22,24 @@ const Incubators = () => {
                         Our institutions & Incubators
                     </p>
 
-                    <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-16">
+                    <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 ">
                         <img
                             src="/nsrcel.svg"
                             alt="NSRCEL IIM Bangalore"
                             className="h-8 sm:h-10 md:h-12 lg:h-14 object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         />
                         <img
-                            src="/wnf.png"
+                            src="/wnf.svg"
                             alt="We Nurture Foundation"
                             className="h-8 sm:h-10 md:h-12 lg:h-14 object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         />
                         <img
-                            src="/iihmr.png"
+                            src="/iihmr.svg"
                             alt="IIHMR"
                             className="h-8 sm:h-10 md:h-12 lg:h-14 object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         />
                         <img
-                            src="/partner-1.png"
+                            src="/partner-1.svg"
                             alt="Partner"
                             className="h-8 sm:h-10 md:h-12 lg:h-14 object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         />
