@@ -15,19 +15,28 @@ const Header = ({ openContactForm }) => {
             if (isScrollingRef.current) return;
 
             const sections = ["about", "how-it-works", "key-features", "solution", "testimonials"];
-            let current = "about";
+            
+            // 40% of viewport height
+            const triggerPoint = window.innerHeight * 0.4;
 
+            // Find the last section that has passed the trigger point
+            let newActive = null;
+            
             sections.forEach((id) => {
                 const section = document.getElementById(id);
                 if (section) {
                     const rect = section.getBoundingClientRect();
-                    if (rect.top <= 100 && rect.bottom >= 100) {
-                        current = id;
+                    // If section has passed the trigger point (its top is above trigger)
+                    if (rect.top <= triggerPoint) {
+                        newActive = id;
                     }
                 }
             });
 
-            setActiveSection(current);
+            // Only update if we found a valid section, otherwise keep the last active
+            if (newActive) {
+                setActiveSection(newActive);
+            }
         };
 
         window.addEventListener("scroll", handleScroll);
