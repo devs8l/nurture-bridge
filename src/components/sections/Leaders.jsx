@@ -42,7 +42,7 @@ const Leaders = () => {
                     >
                         {/* Image Container */}
                         <div className="mb-3 sm:mb-4 md:mb-4">
-                            <div className="w-full aspect-square border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
+                            <div className="w-full  border border-[#524e4946] bg-gray-100 rounded-lg overflow-hidden">
                                 <img
                                     src={leaders.image}
                                     alt={leaders.title}

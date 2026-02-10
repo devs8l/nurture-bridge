@@ -295,3 +295,12 @@
   /* 120% */
   letter-spacing: -1.6px;
 }
+
+/* Mobile */
+@media (max-width: 767px) {
+  .footer-heading {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+  }
+}

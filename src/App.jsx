@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import Home from './pages/Home'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsOfUse from './pages/TermsOfUse'
 import Lenis from 'lenis'
 import { Route, Routes } from 'react-router-dom'
 
@@ -20,6 +22,8 @@ const App = () => {
     <div className="bg-[#F9F6F2]">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
       </Routes>
     </div>
   )

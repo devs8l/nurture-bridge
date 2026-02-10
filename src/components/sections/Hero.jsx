@@ -11,12 +11,12 @@ const Hero = ({ openContactForm }) => {
         style={{
           backgroundImage: 'url("/hero_cohera.png")',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: '10% 50%',
           backgroundRepeat: 'no-repeat',
         }}
       >
         {/* Fadeout overlay at the bottom */}
-        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 lg:h-32 bg-gradient-to-t from-white to-transparent pointer-events-none z-20"></div>
+        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-28 lg:h-32 bg-gradient-to-t from-[#ffffffaa] to-transparent pointer-events-none z-20"></div>
         
         {/* Optional overlay for better text readability */}
         {/* <div className="absolute inset-0 backdrop-blur-[0.5px]"></div> */}
@@ -27,7 +27,7 @@ const Hero = ({ openContactForm }) => {
         <Header openContactForm={openContactForm} />
 
         {/* Hero Content - Positioned below navbar, matching navbar width */}
-        <div className="relative z-10 flex flex-col items-center mx-auto px-4 sm:px-6" style={{ maxWidth: 'min(56rem, 95%)', marginTop: 'clamp(5vh, 8vh, 10vh)', paddingBottom: 'clamp(15vh, 25vh, 35vh)' }}>
+        <div className="relative z-10 flex flex-col items-center mx-auto px-4 sm:px-6" style={{ maxWidth: 'min(56rem, 95%)', marginTop: 'clamp(6vh, 10vh, 11vh)', paddingBottom: 'clamp(15vh, 25vh, 35vh)' }}>
           <h1 className="scto-head font-light text-gray-900 leading-snug text-2xl sm:text-3xl md:text-4xl lg:text-5xl" style={{ marginBottom: 'clamp(2vh, 2.5vh, 3vh)' }}>
             Transforming Autism Assessment <br className="hidden sm:block" />
             with AI-Powered{" "}

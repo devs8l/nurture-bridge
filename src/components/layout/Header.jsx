@@ -108,7 +108,7 @@ const Header = ({ openContactForm }) => {
                 {/* Logo */}
                 <div className="flex-1 flex justify-start">
                     <img
-                        src="/cohera-logo.png"
+                        src="/cohera-logo.svg"
                         alt="Cohera Logo"
                         className="h-8 md:h-12 w-auto"
                     />

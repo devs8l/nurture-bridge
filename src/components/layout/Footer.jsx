@@ -8,8 +8,8 @@ const Footer = ({ openContactForm }) => {
     ];
 
     const legalLinks = [
-        { name: "PRIVACY POLICY", url: "#" },
-        { name: "TERMS OF USE", url: "#" },
+        { name: "PRIVACY POLICY", url: "/privacy-policy" },
+        { name: "TERMS OF USE", url: "/terms-of-use" },
     ];
 
     return (
@@ -30,11 +30,11 @@ const Footer = ({ openContactForm }) => {
             <div className="relative z-10 w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-16 py-8 sm:py-10 md:py-12 lg:py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12">
                     {/* Left Section - Logo and Links */}
-                    <div className="flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-12">
+                    <div className="flex flex-col  gap-6 sm:gap-8 md:gap-10 lg:gap-12 mb-10 sm:mb-0">
                         {/* Logo */}
                         <div>
                             <img
-                                src="/cohera-logo.png"
+                                src="/cohera-logo.svg"
                                 alt="Cohera Logo"
                                 className="h-8 sm:h-9 md:h-10 w-auto"
                             />
@@ -81,10 +81,10 @@ const Footer = ({ openContactForm }) => {
                     </div>
 
                     {/* Right Section - CTA */}
-                    <div className="flex flex-col justify-center items-start lg:items-end text-left lg:text-right">
-                        <div className="flex items-start justify-start lg:justify-end flex-col gap-3 sm:gap-4 w-full">
-                            <h2 className="footer-heading text-gray-900 mb-4 sm:mb-5 md:mb-6 !text-left lg:!text-right text-xl sm:text-2xl md:text-3xl lg:text-4xl break-words leading-snug">
-                                Request a demo and see<br className="hidden sm:block" />
+                    <div className="flex flex-col items-end justify-start">
+                        <div className="flex md:items-start items-center md:justify-start flex-col gap-3 sm:gap-4">
+                            <h2 className="footer-heading text-gray-900 mb-4 sm:mb-5 md:mb-6 text-center md:text-left text-xl sm:text-2xl md:text-3xl lg:text-4xl break-words leading-snug">
+                                Request a demo and see <br className="hidden sm:block" />
                                 the difference for yourself.
                             </h2>
 
