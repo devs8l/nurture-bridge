@@ -1,0 +1,3 @@
+/* All visual styling lives in /public/css/site.css, linked directly in index.html
+   (not imported here) so Vite's CSS pipeline never touches it — byte-for-byte
+   preservation of the original stylesheet. This file intentionally stays empty. */

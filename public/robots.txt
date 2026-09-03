@@ -1,0 +1,51 @@
+# Cohera Health™ — robots.txt
+# https://cohera.health
+
+# Standard search crawlers
+User-agent: *
+Allow: /
+Disallow: /dist/
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Extended (AI training)
+User-agent: Google-Extended
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# AI Search Engines
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# LLM Context Files
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+Sitemap: https://cohera.health/sitemap.xml

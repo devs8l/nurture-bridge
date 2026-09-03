@@ -1,0 +1,256 @@
+# Cohera Health™ — Full AI Context File
+
+> This document provides comprehensive context for AI assistants and large language models about Cohera Health™, its products, mission, clinical positioning, and organizational structure.
+
+---
+
+## Entity: Cohera Health™
+
+- **Brand Name**: Cohera Health™
+- **Legal Entity**: NurtureBridge Tech Pvt Ltd
+- **Website**: https://cohera.health
+- **Category**: Digital Health, Clinical Technology, Child Developmental Care
+- **Status**: Pre-launch / Early Access (as of 2026)
+
+### Founders
+- Gayathri Ananth
+- Harshit Pandey
+- Devjeet Choudhury
+
+---
+
+## Mission Statement
+
+Cohera Health connects every professional and family involved in a child's developmental journey. The platform enables pediatricians, developmental specialists, therapists, and families to share structured observations, developmental history, care plans, and progress updates through role-appropriate, consent-governed clinical workflows—from early identification through assessment, intervention, and long-term progress.
+
+---
+
+## What Cohera Health Is NOT
+
+- Cohera does **not** diagnose children.
+- Cohera does **not** replace validated developmental screening tools (e.g., M-CHAT, ASQ).
+- Cohera does **not** replace comprehensive clinical assessment.
+- Cohera is **not** an emergency medical service.
+- Cohera AI outputs are **always** subordinate to the treating clinician's judgment and record.
+
+---
+
+## Products in Detail
+
+### 1. Cohera Screen
+**URL**: https://cohera.health/products/cohera-screen/
+**Target User**: Pediatricians, General Practitioners, Primary Care Physicians
+
+Cohera Screen is a developmental surveillance tool that brings structured family observations and guided video activities into a concise, reviewable developmental picture. It is designed to fit into everyday pediatric practice without redesigning the consultation.
+
+**Workflow**:
+1. Invite — Pediatrician connects child profile and invites family.
+2. Prepare — Family completes relevant developmental history and guided activities at home.
+3. Review — Pediatrician reviews a source-linked developmental picture before or during the visit.
+4. Act — Clinician documents the agreed next step (reassure, monitor, refer, etc.).
+5. Follow — New observations and updates connect to the same longitudinal history.
+
+**Key Features**:
+- Structured family-reported observations
+- Guided, age-appropriate video activities (family-captured)
+- AI-assisted organization of signals for clinical review (not autonomous diagnosis)
+- Concise report with domains, strengths, flags, referral history, and longitudinal change
+- Clinician edits, confirms, or rejects every AI-assisted summary
+- Source-linked: every observation traceable to its informant and context
+
+---
+
+### 2. Cohera Assess
+**URL**: https://cohera.health/products/cohera-assess/
+**Target User**: Developmental Specialists, Psychologists, Occupational Therapists, Speech-Language Pathologists
+
+Cohera Assess is a comprehensive developmental assessment platform for specialists. It organizes multi-source observations, standardized tool inputs, and prior family history into a structured assessment record that supports qualified clinical review and professional reporting.
+
+**Key Features**:
+- Pre-assessment context from prior pediatric records and family history
+- Standardized assessment tool integration (professional use)
+- Multi-domain observation organization
+- Specialist-generated assessment reports
+- Longitudinal comparison against prior assessments
+
+---
+
+### 3. Cohera Therapy
+**URL**: https://cohera.health/products/cohera-therapy/
+**Target User**: Speech-Language Therapists, Occupational Therapists, Developmental Therapists, Multidisciplinary Teams
+
+Cohera Therapy is a multidisciplinary therapy coordination platform that connects goal planning, session delivery, family guidance, and measurable progress around existing therapy workflows. Each discipline retains its professional methods, notes, and clinical responsibility while sharing a structured, connected plan.
+
+**Workflow**:
+1. Plan — Goals are built from prior assessment context and family priorities; each discipline has role-specific responsibilities.
+2. Deliver — Session documentation, adaptations, and outcomes are captured connected to goals.
+3. Review — Progress is visible against agreed goals; family observations and professional notes sit together; review points are clear.
+
+**Key Features**:
+- Multidisciplinary shared goal structure
+- Role-aware: each professional sees and contributes only within their scope
+- Family guidance connected to professionally approved activities
+- Longitudinal progress visible across disciplines
+- Fewer scattered messages; clearer review points
+
+---
+
+### 4. Cohera Care
+**URL**: https://cohera.health/products/cohera-care/
+**Target User**: Parents, Caregivers, Families
+
+Cohera Care is the family-facing experience of the Cohera Health ecosystem. Families access it through an invite from a participating care team member. It provides a calm, organized space for everything relevant to their child's developmental journey.
+
+**Access Model**: Invite-only from a participating pediatrician, clinician, therapist, or care organization.
+
+**Key Features**:
+- Complete screening activities requested by the care team
+- Access developmental reports and progress updates
+- Review therapy plans and recommended home activities
+- Receive updates from the care team
+- Keep the developmental journey organized over time
+- Parent-controlled consent and access settings
+
+---
+
+## Technology: Cohera Developmental Signal Layer (Cohera IP)
+
+Cohera's proprietary technology organizes multi-source developmental information — from family observations, video activities, standardized assessments, and professional notes — into a structured, reviewable format for clinical use.
+
+**Core Properties**:
+- Source-linked: every data point carries its informant, capture context, and timestamp
+- Clinician-controlled: all AI-assisted summaries can be reviewed, edited, confirmed, or rejected by the clinician
+- Longitudinal: observations connect across time into a single developmental history
+- Role-gated: access to information is determined by professional role and consent
+
+**AI Governance**:
+- No autonomous diagnosis
+- All AI outputs are "review prompts" not conclusions
+- Clinician's authoritative note supersedes any generated summary
+- Uncertainty and source gaps are made visible, not hidden
+
+---
+
+## Audiences
+
+### Pediatricians
+- Structured surveillance from family history and video activities
+- Concise reviewable developmental picture before the visit
+- Clear flagging system (flags = review prompts, not diagnoses)
+- Referral documentation with context carried forward
+- Longitudinal follow-up across visits
+
+### Developmental Specialists
+- Better-prepared referrals arriving with prior history and family observations
+- Structured assessment environment with multi-source context
+- Professional-grade reporting tools
+
+### Therapists (SLT, OT, Developmental)
+- Shared goal structure without losing role-specific methods
+- Session delivery documentation connected to goals
+- Multidisciplinary visibility with appropriate role gating
+- Family participation coordination
+
+### Hospitals & Health Systems
+- Consistent cross-team workflows
+- Governance-grade access control
+- Implementation support with controlled pilot approach
+- Evaluation frameworks built in
+
+### Families
+- Calm, organized access to their child's care journey
+- Clear explanations of what is collected and why
+- Parent/guardian consent governs all data sharing
+- No diagnostic labels; clinical information explained in accessible language
+
+---
+
+## Clinical Positioning & Safety Claims
+
+- Cohera Screen supports developmental **surveillance** — the ongoing process of monitoring development during routine care.
+- Cohera is not a validated screening tool replacement (e.g., M-CHAT-R/F, ASQ-3). It supports the clinical process surrounding screening.
+- Diagnosis requires a qualified clinical professional.
+- A "flag" in Cohera is a prompt for clinical review — not a medical conclusion.
+- All AI-assisted outputs are explicitly labelled, source-linked, and editable by the clinician.
+- Human clinical judgment is the authoritative decision-maker at every step.
+
+---
+
+## Privacy & Consent Framework
+
+**Operated by**: NurtureBridge Tech Pvt Ltd
+
+**Principles**:
+- Consent-led collection: Parent or lawful guardian consent guides all data collection and sharing
+- Purpose-specific permissions: Consent is scoped to the specific clinical purpose
+- Role-based access: People see only what their role in the child's care requires
+- Auditable handling: All access and changes are logged
+- Additional safeguards for photos and videos
+- Correction and withdrawal pathways where applicable
+
+---
+
+## Frequently Asked Questions
+
+**Can Cohera diagnose my child?**
+No. Cohera organizes information and supports professional conversations. Diagnosis requires qualified clinical assessment.
+
+**Is Cohera a replacement for a developmental screening tool?**
+No. Cohera supports clinical workflows surrounding screening and assessment. Validated screening tools (like M-CHAT-R/F or ASQ) are administered by qualified professionals.
+
+**Who can access information about my child in Cohera?**
+Access is role-based and consent-governed. Only people with the appropriate role in your child's care — and with your consent — can access relevant information.
+
+**What happens if I have an urgent concern?**
+Cohera is not an emergency service. For urgent medical or safety concerns, contact an appropriate healthcare professional or your local emergency service.
+
+**How do families get access to Cohera Care?**
+Families receive an invite from a participating care team member (pediatrician, clinician, therapist, or care organization).
+
+---
+
+## Structured Entity Relationships
+
+```
+NurtureBridge Tech Pvt Ltd (Legal Entity)
+└── Cohera Health™ (Brand)
+    ├── Cohera Screen (SoftwareApplication — Pediatricians)
+    ├── Cohera Assess (SoftwareApplication — Specialists)
+    ├── Cohera Therapy (SoftwareApplication — Therapists)
+    └── Cohera Care (SoftwareApplication — Families)
+```
+
+**Connected Audiences**:
+- Pediatricians → use Cohera Screen
+- Developmental Specialists → use Cohera Assess
+- Therapists → use Cohera Therapy
+- Families → use Cohera Care (invited by care team)
+- Hospitals/Organizations → deploy all products via clinical governance pathway
+
+---
+
+## Key URLs
+
+| Page | URL |
+|------|-----|
+| Home | https://cohera.health/ |
+| Products | https://cohera.health/products/ |
+| Cohera Screen | https://cohera.health/products/cohera-screen/ |
+| Cohera Assess | https://cohera.health/products/cohera-assess/ |
+| Cohera Therapy | https://cohera.health/products/cohera-therapy/ |
+| Cohera Care | https://cohera.health/products/cohera-care/ |
+| For Clinicians | https://cohera.health/for-clinicians/ |
+| For Families | https://cohera.health/for-families/ |
+| Evidence | https://cohera.health/evidence/ |
+| Resources | https://cohera.health/resources/ |
+| Company | https://cohera.health/company/ |
+| Trust & Privacy | https://cohera.health/trust/ |
+| Privacy Policy | https://cohera.health/privacy-policy/ |
+| Terms of Use | https://cohera.health/terms-of-use/ |
+| Contact | https://cohera.health/contact/ |
+| Request Demo | https://cohera.health/request-demo/ |
+| Join Network | https://cohera.health/join-network/ |
+
+---
+
+*Last updated: September 2026 | Cohera Health™ is operated by NurtureBridge Tech Pvt Ltd.*

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cohera Health™ — One connected child-development pathway</title>
+<meta name="description" content="Cohera Health connects pediatricians, clinicians, therapists, and families from early identification to intervention and progress.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="NurtureBridge Tech Pvt Ltd">
+<link rel="canonical" href="https://cohera.health/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cohera Health™">
+<meta property="og:title" content="Cohera Health™ — One connected child-development pathway">
+<meta property="og:description" content="Cohera Health connects pediatricians, clinicians, therapists, and families from early identification to intervention and progress.">
+<meta property="og:url" content="https://cohera.health/">
+<meta property="og:image" content="https://cohera.health/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cohera Health™ — Connected developmental care">
+<meta property="og:locale" content="en_US">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cohera Health™ — One connected child-development pathway">
+<meta name="twitter:description" content="Cohera Health connects pediatricians, clinicians, therapists, and families from early identification to intervention and progress.">
+<meta name="twitter:image" content="https://cohera.health/og.png">
+<meta name="twitter:image:alt" content="Cohera Health™ — Connected developmental care">
+<!-- AI Context -->
+<link rel="alternate" type="text/plain" href="/llms.txt" title="AI context summary">
+<link rel="alternate" type="text/plain" href="/llms-full.txt" title="AI context (full)">
+<!-- Theme & Assets -->
+<meta name="theme-color" content="#BDEBFF">
+<!-- Favicon: switches automatically with OS light/dark mode -->
+<link id="favicon-light" rel="icon" type="image/svg+xml" href="/favicon.svg" media="(prefers-color-scheme: light)">
+<link id="favicon-dark"  rel="icon" type="image/svg+xml" href="/dark-favicon.svg" media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var LIGHT = '/favicon.svg';
+    var DARK  = '/dark-favicon.svg';
+    /* Some browsers (Firefox, older Safari) ignore media="" on <link rel="icon">.
+       This listener keeps a canonical un-mediaqued href in sync as a fallback. */
+    function syncFavicon(prefersDark) {
+      var el = document.getElementById('favicon-light') || document.querySelector('link[rel="icon"]');
+      if (el) el.setAttribute('href', prefersDark ? DARK : LIGHT);
+    }
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    syncFavicon(mq.matches);
+    mq.addEventListener('change', function (e) { syncFavicon(e.matches); });
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/vendor/tabler/tabler-icons.min.css?v=3.46.0">
+<link rel="stylesheet" href="/css/site.css?v=white-cards-v50">
+<noscript><style>.reveal,[data-stagger]>*{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

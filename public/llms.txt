@@ -1,0 +1,79 @@
+# Cohera Health™
+
+> Connected developmental-care technology for pediatricians, clinicians, therapists, and families.
+
+## Brand Identity
+
+- **Brand**: Cohera Health™
+- **Parent Company**: NurtureBridge Tech Pvt Ltd
+- **Website**: https://cohera.health
+- **Mission**: To connect every professional and family involved in a child's developmental journey—from early identification through assessment, therapy, and long-term progress.
+
+## What Cohera Health Does
+
+Cohera Health is a clinical-grade digital health platform that connects the entire child developmental care ecosystem. It enables pediatricians, developmental specialists, therapists, and families to share structured observations, developmental history, care plans, and progress updates through role-appropriate, consent-governed workflows.
+
+Cohera does not diagnose children. It supports professional clinical judgment with organized, source-linked information.
+
+## Products
+
+### Cohera Screen
+Developmental surveillance tool for pediatricians. Brings structured family observations and guided video activities into a concise developmental picture before, during, and after the well-child visit. Helps clinicians review concerns, decide next steps, and maintain continuity.
+
+### Cohera Assess
+Comprehensive developmental assessment platform for specialists. Organizes multi-source observations, standardized tool inputs, and family history into a structured assessment record for qualified clinical review.
+
+### Cohera Therapy
+Multidisciplinary therapy coordination platform. Connects planning, session delivery, family guidance, and measurable progress around therapy workflows. Gives each discipline a shared structure while preserving role-specific methods and clinical judgment.
+
+### Cohera Care
+Family-facing experience. Families access the ecosystem through an invite from their care team, gaining access to activities, developmental reports, care plans, resources, and care-team communication in one organized experience.
+
+## Target Audiences
+
+- **Pediatricians**: Structured surveillance, family history, reviewable developmental flags, referral support, longitudinal follow-up.
+- **Developmental Specialists**: Better-prepared referrals with prior history, family observations, and multidisciplinary context.
+- **Therapists**: Connect goals, session delivery, family participation, and progress with the broader care pathway.
+- **Hospitals & Centres**: Consistent workflows, coordination, access governance, and implementation support.
+- **Families**: Invite-based access to their child's developmental journey, care plans, and clinical guidance.
+
+## Core Principles
+
+- AI organizes information; clinicians own the decision.
+- Every observation is source-linked and traceable.
+- Parent or lawful guardian consent governs all data collection and sharing.
+- Role-based access: each person sees only what their role requires.
+- Additional safeguards for photos and videos.
+- Cohera is not an emergency service and does not replace validated screening tools, comprehensive assessment, or professional diagnosis.
+
+## Technology
+
+Cohera's proprietary developmental signal layer (Cohera IP) prepares multi-source information for clinical review while preserving source, context, and place in the child's longitudinal history.
+
+## Privacy & Trust
+
+- Operated by NurtureBridge Tech Pvt Ltd
+- Consent-led collection
+- Auditable data handling
+- Correction and withdrawal pathways
+- Programme-specific legal privacy notices accompany each deployment
+
+## Pages
+
+- `/` — Home
+- `/products/` — Products overview
+- `/products/cohera-screen/` — Cohera Screen (pediatric surveillance)
+- `/products/cohera-assess/` — Cohera Assess (developmental assessment)
+- `/products/cohera-therapy/` — Cohera Therapy (therapy coordination)
+- `/products/cohera-care/` — Cohera Care (family experience)
+- `/for-clinicians/` — For Clinicians
+- `/for-families/` — For Families
+- `/evidence/` — Evidence & Clinical Approach
+- `/resources/` — Educational Resources
+- `/company/` — About Cohera Health
+- `/trust/` — Trust & Privacy
+- `/privacy-policy/` — Privacy Policy
+- `/terms-of-use/` — Terms of Use
+- `/contact/` — Contact
+- `/request-demo/` — Request a Demo
+- `/join-network/` — Join the Clinician Network
