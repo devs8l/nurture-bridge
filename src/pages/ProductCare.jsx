@@ -46,7 +46,7 @@ export default function ProductCare() {
 
           <h1 className="reveal in">Everything a family needs to stay informed, prepared, and connected.</h1>
           <p className="lede reveal in">Families access the Cohera Health™ ecosystem through an invite from their care team—bringing activities, reports, plans, resources, and communication into one calm experience.</p>
-          <div className="btn-row center"><a className="textlink" href="#access">How Access Works <i className="ti ti-arrow-down tabler-ui-icon" style={{ "--ti-size": "15px" }} aria-hidden="true"></i></a><a className="textlink" href="/for-families/">For Families <i className="ti ti-arrow-right tabler-ui-icon" style={{ "--ti-size": "15px" }} aria-hidden="true"></i></a></div>
+          <div className="btn-row center"><a className="textlink" href="/for-families/">For Families <i className="ti ti-arrow-right tabler-ui-icon" style={{ "--ti-size": "15px" }} aria-hidden="true"></i></a></div>
 
         </div>
 

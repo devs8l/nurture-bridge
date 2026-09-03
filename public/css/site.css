@@ -388,7 +388,8 @@ body *::after {
   user-select: none;
 }
 
-.btn:disabled, .btn[disabled] {
+.btn:disabled,
+.btn[disabled] {
   opacity: 0.45 !important;
   cursor: not-allowed !important;
   pointer-events: none !important;
@@ -796,16 +797,18 @@ body *::after {
   font-family: var(--font-body);
   font-weight: 400;
   background: transparent;
+  border: 1px solid transparent;
   box-shadow: none;
-  transition: background .2s, color .2s;
+  transition: background .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
 
 .drop-panel .d-card:hover,
 .drop-panel .d-card:focus-visible {
   transform: none;
-  background: #F3F6F8;
-  box-shadow: none;
-  outline: none
+  background: rgba(39, 131, 222, .07);
+  border-color: rgba(39, 131, 222, .15);
+  box-shadow: 0 2px 8px rgba(39, 131, 222, .08);
+  outline: none;
 }
 
 .drop-panel .d-ic {
@@ -4001,7 +4004,7 @@ svg .pulse-dot {
   align-items: center !important;
   justify-content: center !important;
   padding: 10px 24px !important;
-  background: #172235 !important;
+  background: #708994 !important;
   color: #FFFFFF !important;
   font-size: 13px !important;
   font-weight: 500 !important;
@@ -7643,7 +7646,7 @@ body .site-footer.site-footer--reference .f-col h4 {
     font-size: 12px !important;
     line-height: 1.4 !important;
     color: #FFFFFF !important;
-    background: #172235 !important;
+    background: #708994 !important;
   }
 }
 

@@ -58,7 +58,7 @@ function MobileRow({ href, name, icon }) {
     <a className="mm-row" href={href}>
       {icon && <span className="mm-row-ic"><Icon name={icon} size={18} /></span>}
       <span className="mm-row-label">{name}</span>
-      <Icon name="chevron-right" size={16} />
+      <Icon name="arrow-up-right" size={15} />
     </a>
   );
 }
@@ -166,7 +166,7 @@ export default function Header() {
         <nav aria-label="Mobile" className="mm-sheet" onClick={closeOnLinkClick}>
           <a className="mm-row mm-row--home" href="/" ref={firstLinkRef}>
             <span className="mm-row-label">Home</span>
-            <Icon name="chevron-right" size={18} />
+            <Icon name="arrow-up-right" size={15} />
           </a>
 
           <div className="mm-card">
