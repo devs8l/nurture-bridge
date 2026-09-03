@@ -4366,7 +4366,7 @@ svg .pulse-dot {
   }
 
   .site-footer {
-    margin-bottom: calc(var(--frame) + var(--safe-b))
+    margin-bottom: 0 !important
   }
 }
 

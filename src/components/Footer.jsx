@@ -59,7 +59,7 @@ export default function Footer() {
           </nav>
         </div>
       </div>
-      <div className="f-bottom">&copy; 2026 NurtureBridge Tech Pvt Ltd. Cohera Health™. All rights reserved.</div>
+      <div className="f-bottom">&copy; {new Date().getFullYear()} NurtureBridge Tech Pvt Ltd. Cohera Health™. All rights reserved.</div>
     </footer>
   );
 }
